@@ -3,5 +3,8 @@
 
     /* colors */
     --primary: #002d63;
+    --accent: #0049d8;
+    --alert: #bf1700;
     --light: #fff;
+    --text-secondary: #8096b1;
 }
