@@ -15,7 +15,9 @@ const icons = {
     'password-toggle': PasswordToggle,
     'password-toggle-alert': PasswordToggleAlert,
     question: Question,
-    'question-alert': QuestionAlert
+    'question-alert': QuestionAlert,
+    checkbox: CheckBox,
+    'checkbox-checked': CheckBoxChecked
 };
 </script>
 
