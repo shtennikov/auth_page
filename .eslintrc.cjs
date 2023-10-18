@@ -14,6 +14,7 @@ module.exports = {
         ecmaVersion: 'latest'
     },
     rules: {
-        'no-console': ['warn', { allow: ['warn', 'error', 'info'] }]
+        'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
+        'no-unused-vars': 'off',
     }
 };
