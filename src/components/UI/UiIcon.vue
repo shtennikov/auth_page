@@ -8,6 +8,8 @@ import PasswordToggle from '../../assets/icons/password-toggle.svg';
 import PasswordToggleAlert from '../../assets/icons/password-toggle-alert.svg';
 import Question from '../../assets/icons/question.svg';
 import QuestionAlert from '../../assets/icons/question-alert.svg';
+import CheckBox from '../../assets/icons/checkbox.svg';
+import CheckBoxChecked from '../../assets/icons/checkbox-checked.svg';
 
 const icons = {
     'password-toggle': PasswordToggle,
