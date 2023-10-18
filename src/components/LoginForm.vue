@@ -14,7 +14,7 @@
             </UiInput>
         </div>
         <div class="forget-password">
-            <a class="forget-password__link">{{ FORGET_PASSWORD_TEXT }}</a>
+            <a @click="$emit('forget')" class="forget-password__link">{{ FORGET_PASSWORD_TEXT }}</a>
         </div>
         <div class="button-container">
             <UiButton type="button">Войти</UiButton>
@@ -26,6 +26,8 @@
 import UiInput from './UI/UiInput.vue';
 import UiIcon from './UI/UiIcon.vue';
 import UiButton from './UI/UiButton.vue';
+
+const emit = defineEmits(['forget']);
 
 const FORGET_PASSWORD_TEXT = 'Забыли пароль?';
 </script>
@@ -53,6 +55,7 @@ const FORGET_PASSWORD_TEXT = 'Забыли пароль?';
 .forget-password__link {
     position: relative;
     left: -250px;
+    cursor: pointer;
 }
 
 .button-container {
